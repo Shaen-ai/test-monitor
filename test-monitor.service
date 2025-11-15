@@ -1,0 +1,8 @@
+[Unit]
+Description=Test process monitoring script
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/test_monitor.sh
+User=root
+Group=root
